@@ -9,9 +9,6 @@ class Library:
     def displayBook(self):
         print(f"Library Books List : {self.books}")
     
-    def SearchBook(self):
-        pass
-    
     def addBook(self,name):
         flag=1
         for i in self.books:
